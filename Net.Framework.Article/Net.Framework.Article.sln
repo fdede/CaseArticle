@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArticleWebApplication", "ArticleWebApplication\ArticleWebApplication.csproj", "{4C72116A-D4D5-4811-9911-70E5147B7705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{0A975746-3174-4FA3-BA62-4A103EFA285B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{B0F7517A-45FD-4B6D-BF02-DA61E43ED412}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{4634D7FC-E55E-4943-A94D-38647EF2DFE5}"
@@ -23,10 +21,6 @@ Global
 		{4C72116A-D4D5-4811-9911-70E5147B7705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C72116A-D4D5-4811-9911-70E5147B7705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C72116A-D4D5-4811-9911-70E5147B7705}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A975746-3174-4FA3-BA62-4A103EFA285B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A975746-3174-4FA3-BA62-4A103EFA285B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A975746-3174-4FA3-BA62-4A103EFA285B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A975746-3174-4FA3-BA62-4A103EFA285B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B0F7517A-45FD-4B6D-BF02-DA61E43ED412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0F7517A-45FD-4B6D-BF02-DA61E43ED412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0F7517A-45FD-4B6D-BF02-DA61E43ED412}.Release|Any CPU.ActiveCfg = Release|Any CPU

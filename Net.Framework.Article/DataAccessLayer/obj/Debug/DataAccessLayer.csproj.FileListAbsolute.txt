@@ -1,0 +1,13 @@
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\bin\Debug\NLog.config
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\bin\Debug\Entities.dll
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\bin\Debug\NLog.dll
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\bin\Debug\Entities.pdb
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\bin\Debug\NLog.xml
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

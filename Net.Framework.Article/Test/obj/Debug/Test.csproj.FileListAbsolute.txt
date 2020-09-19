@@ -1,0 +1,16 @@
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\NLog.config
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\Test.exe.config
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\Test.exe
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\Test.pdb
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\DataAccessLayer.dll
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\Entities.dll
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\NLog.dll
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\Newtonsoft.Json.dll
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\DataAccessLayer.pdb
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\Entities.pdb
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\NLog.xml
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\bin\Debug\Newtonsoft.Json.xml
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\obj\Debug\Test.exe
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Test\obj\Debug\Test.pdb

@@ -12,7 +12,7 @@ using DataAccessLayer.DataBase;
 
 namespace DataAccessLayer.Repository
 {
-    class ArticleRepository : GlobalTransactions, IArticleRepository
+    public class ArticleRepository : GlobalTransactions, IArticleRepository
     {
         SqlCommand cmd;
         SqlDataReader reader;
@@ -38,26 +38,30 @@ namespace DataAccessLayer.Repository
             return ReturnValue;
         }
 
-        public void DeleteArticle(int ID)
+        public int DeleteArticle(int ID)
         {
             TryIt(() =>
             {
                 cmd = new SqlCommand("DeleteArticle");
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@ID", SqlDbType.Int).Value = ID;
-                DAL.Run(cmd);
+                ReturnValue = DAL.Run(cmd);
             });
+
+            return ReturnValue;
         }
 
-        public void DestroyArticle(int ID)
+        public int DestroyArticle(int ID)
         {
             TryIt(() =>
             {
                 cmd = new SqlCommand("DestroyArticle");
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@ID", SqlDbType.Int).Value = ID;
-                DAL.Run(cmd);
+                ReturnValue = DAL.Run(cmd);
             });
+
+            return ReturnValue;
         }
 
         public List<Article> FindArticlesByText(string keyWord)
@@ -146,7 +150,20 @@ namespace DataAccessLayer.Repository
             return articles;
         }
 
-        public void UpdateArticle(int ID, string nameOrTitle, string subject, string text)
+        public bool IfExist(int ID)
+        {
+            TryIt(() =>
+            {
+                cmd = new SqlCommand("IfExist");
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@ID", SqlDbType.Int).Value = ID;
+                ReturnValue = DAL.RunInt(cmd);
+            });
+
+            return ReturnValue == 0 ? false : true;
+        }
+
+        public int UpdateArticle(int ID, string nameOrTitle, string text)
         {
             TryIt(() =>
             {
@@ -155,8 +172,10 @@ namespace DataAccessLayer.Repository
                 cmd.Parameters.Add("@ID", SqlDbType.Int).Value = ID;
                 cmd.Parameters.Add("@NameOrTitle", SqlDbType.NVarChar).Value = nameOrTitle;
                 cmd.Parameters.Add("@Text", SqlDbType.NVarChar).Value = text;
-                DAL.Run(cmd);
+                ReturnValue = DAL.Run(cmd);
             });
+
+            return ReturnValue;
         }
     }
 }
