@@ -12,9 +12,11 @@ Open / Closed Principle (OCP) göz önünde bulundurularak geliştirme yapılmı
 Dependency Inversion Principle uygulanmaya çalışılarak katmanlar arasındaki doğrudan bağımlılık azaltılmaya çalışılmıştır.
 
 
+
 •	Kullandığınız teknoloji ve kütüphaneler hakkında daha önce tecrübeniz oldu mu? Tek tek yazabilir misiniz?
 
 İlk kez Web API yazdım. Doğal olarak geliştirme süresinin epey bir kısmını araştırmaya ayırdım. NLog, System.Collections, System.Data.SqlClient ve System.Linq gibi kütüphaneleri hemen hemen her projede kullanıyorum. Aynı şekilde T-SQL tarafında function, view, stored procedur ve karmaşık rapor sorguları konusunda oldukça tecrübeliyim. Çalıştığım pozisyonda tecrübe edindiğim test araçlarından Postman’i de projenin test sürecinde oldukça kullandım.
+
 
 
 •	Daha geniş vaktiniz olsaydı projeye neler eklemek isterdiniz?
@@ -22,12 +24,15 @@ Dependency Inversion Principle uygulanmaya çalışılarak katmanlar arasındaki
 Daha geniş bir vaktim olsaydı veri modelimi daha karmaşık bir yapıda tasarlardım. API metotlarını authentication ve secret keyler kullanarak güvenliği artırmaya çalışırdım.
 
 
+
 •	Eklemek istediğiniz bir yorumunuz var mı?
 
 İlk kez bir API projesi geliştirdiğim için karmaşık veri modellerine ve tasarımdan uzak durup design patternlere önem verip temiz bir kod yazmaya çalıştım.
 
 
+
 API Metotları ve Kullanımı
+
 
 Get() Bir hata oluşmaz ise içerideki tüm makaleleri döner.
 
