@@ -3,8 +3,11 @@
 •	Projede kullanıldığınız tasarım desenleri hangileridir? Bu desenleri neden kullandınız?
 
 Veri tabanı erişimi için Repository Pattern kullanıldı. Günün ihtiyaçlarına göre MS SQL veri tabanı ile geliştirilen API’nin gelecekte farklı bir veri tabanını kullanabilmesi ve api katmanının bundan etkilenmemesi için proje bileşenlere ayrıldı.
+
 Yazılım geliştirme süreçlerinde ekip çalışmasının çok faydalı hatta gereklidir. Ekip içindeki üyelerin bir proje üzerinde çalışırken zorlanmadan yapılan işlemleri yorumlayabilmesi hatta ileride geliştiricinin bizzat koda bakarken neler yaptığımı vakit kaybetmeden anlayabilmesi için SOLID prensiplere uygun tasarım yapıldı.
+
 Sıradan CRUD fonksiyonlarına ek fonksiyonlar tanımlandı. Her sınıf ve metodun sadece bir görevi olması amaçlanarak geliştirildi. Örnek verecek olursak API’daki DELETE metodu incelenebilir. Bu metodun “willDestroyed” adında optional bir parametresi vardır. Parametre makaleyi tamamen yok etmek veya her ihtimale karşı veri tabanında saklayarak silinmiş olarak işaretlemenize izin verir. ArticleRepository sınıfında bu iki özellik ayrı şekilde tasarlanmıştır. Tasarlanan ara yüz veya API’larda kullanılabilir.
+
 2. Open / Closed Principle (OCP) göz önünde bulundurularak geliştirme yapılmıştır. ArticleRepository sınıfı örnek verilebilir. Projeyi incelediğinizde “Undelete” metodu bulunmamaktadır. Gelecekte oluşabilecek ihtiyaçlar için katman içindeki metotlar değişime kapalıdır fakat sınıf gelişime açıktır.
 Dependency Inversion Principle uygulanmaya çalışılarak katmanlar arasındaki doğrudan bağımlılık azaltılmaya çalışılmıştır.
 
