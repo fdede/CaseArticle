@@ -4,7 +4,7 @@
 
 Veri tabanı erişimi için Repository Pattern kullanıldı. Günün ihtiyaçlarına göre MS SQL veri tabanı ile geliştirilen API’nin gelecekte farklı bir veri tabanını kullanabilmesi ve api katmanının bundan etkilenmemesi için proje bileşenlere ayrıldı.
 
-Yazılım geliştirme süreçlerinde ekip çalışmasının çok faydalı hatta gereklidir. Ekip içindeki üyelerin bir proje üzerinde çalışırken zorlanmadan yapılan işlemleri yorumlayabilmesi hatta ileride geliştiricinin bizzat koda bakarken neler yaptığımı vakit kaybetmeden anlayabilmesi için SOLID prensiplere uygun tasarım yapıldı.
+Yazılım geliştirme süreçlerinde ekip çalışması çok faydalı hatta gereklidir. Ekip içindeki üyelerin bir proje üzerinde çalışırken zorlanmadan yapılan işlemleri yorumlayabilmesi hatta ileride geliştirici bizzat koda bakarken neler yaptığımı vakit kaybetmeden anlayabilmesi için SOLID prensiplere uygun tasarım yapıldı.
 
 Sıradan CRUD fonksiyonlarına ek fonksiyonlar tanımlandı. Her sınıf ve metodun sadece bir görevi olması amaçlanarak geliştirildi. Örnek verecek olursak API’daki DELETE metodu incelenebilir. Bu metodun “willDestroyed” adında optional bir parametresi vardır. Parametre makaleyi tamamen yok etmek veya her ihtimale karşı veri tabanında saklayarak silinmiş olarak işaretlemenize izin verir. ArticleRepository sınıfında bu iki özellik ayrı şekilde tasarlanmıştır. Tasarlanan ara yüz veya API’larda kullanılabilir.
 
