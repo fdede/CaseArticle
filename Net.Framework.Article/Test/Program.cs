@@ -55,6 +55,11 @@ namespace Test
             //Console.ReadLine();
             #endregion
 
+            #region List
+            //List<Article> articles = repository.GetArticles();
+            //Console.WriteLine(articles.Count);
+            #endregion
+
         }
     }
 }

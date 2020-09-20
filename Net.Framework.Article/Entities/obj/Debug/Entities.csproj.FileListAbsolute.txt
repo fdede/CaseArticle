@@ -1,5 +1,5 @@
 C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Entities\bin\Debug\Entities.dll
 C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Entities\bin\Debug\Entities.pdb
-C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
 C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Entities\obj\Debug\Entities.dll
 C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Entities\obj\Debug\Entities.pdb
+C:\Benim Kütüphanem\GitHub\CaseArticle\Net.Framework.Article\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
