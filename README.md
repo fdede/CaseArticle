@@ -27,8 +27,13 @@ Daha geniş bir vaktim olsaydı veri modelimi daha karmaşık bir yapıda tasarl
 API Metotları ve Kullanımı
 
 Get() Bir hata oluşmaz ise içerideki tüm makaleleri döner.
+
 Get(int ID) Özel olarak bir makale çağırmanızı sağlar.
+
 Get (string keyWord) Makaleler içinde geçen bir kelime arama yapmanıza olanak verir. Liste döner.
+
 Post(string nameOrTitle, string text) Yeni bir makale oluşturmanızı sağar, tüm parametreler zorunludur.
+
 Put(int ID, string nameOrTitle, string text) Var olan bir makaleyi gencellemenize olanak veirir, tüm parametreler zorunludur.
+
 Delete(int ID, bool willDestroyed = false) Makale silebilirsiniz. Optional olarak yok edebilir veya sadece silinmiş olarak işaretleyebilirsiniz.
